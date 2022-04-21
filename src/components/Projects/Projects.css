@@ -1,0 +1,55 @@
+#projects {
+    padding: 25px 0px;
+}
+#projects h2 {
+    font-family: 'Fira Code', monospace;
+    color: gray;
+}
+#projects h2::before {
+    content: "03.";
+    margin-right: 4px;
+    color: #cc4100;
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-container {
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.project-container:hover{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0px 10px 20px 10px;
+    transition: 0.3s;
+}
+.project-container .project-name {
+    font-weight: 600;
+    color: #cc4100;
+}
+.project-container a {
+    text-decoration: none;
+}
+.project-container img {
+    width: 300px;
+    height: 155px;
+}

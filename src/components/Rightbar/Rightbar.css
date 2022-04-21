@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+    .side-right {
+        display: none;
+    }
+}
+.side-right {
+    margin: 0 10px 0 0;
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+}
+.side-right-container a {
+    display: flex;
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    color: #cc4100;
+    margin: 0 auto;
+    transition-property: padding-bottom;
+    transition-duration: 0.5s;
+}
+.side-right-container a:hover {
+    display: flex;
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    color: #cc4100;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.side-right div::after {
+    content: "";
+    display: flex;
+    width: 1px;
+    height: 90px;
+    margin: 20px auto 0 auto;
+    background-color: #cc4100;
+}

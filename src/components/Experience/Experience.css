@@ -1,0 +1,77 @@
+@media only screen and (min-width: 768px) {
+    #experience {
+        padding: 25px 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #experience {
+        padding: 25px 10px;
+    }
+}
+#experience h2 {
+    font-family: 'Fira Code', monospace;
+    color: gray;
+}
+#experience h2::before {
+    content: "02.";
+    margin-right: 4px;
+    color: #cc4100;
+}
+.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+.experience-grid .job-list li:hover {
+    background-color: #cc410020;
+}
+.experience-grid .job-list ul {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.experience-grid .job-list .normal {
+    font-family: 'Fira Code', monospace;
+    color: gray;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 10px;
+    border-left: 2px solid gray;
+}
+.experience-grid .job-list .selected {
+    font-family: 'Fira Code', monospace;
+    color: #cc4100;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 10px;
+    border-left: 2px solid #cc4100;
+}
+.experience-grid .job-details {
+    padding: 5px 5px 5px 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.experience-grid .job-details .job-position {
+    color: #cc4100;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.experience-grid .job-details .job-dates {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.82rem;
+    margin-top: 7px;
+}
+.experience-grid .job-details ul {
+    list-style: none;
+}
+.experience-grid .job-details li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px
+}
+.experience-grid .job-details li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #cc4100;
+}

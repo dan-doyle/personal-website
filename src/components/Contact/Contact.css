@@ -1,0 +1,46 @@
+#contact {
+    padding: 25px 0px;
+}
+#contact h2 {
+    font-family: 'Fira Code', monospace;
+    color: gray;
+}
+#contact h2::before {
+    content: "04.";
+    margin-right: 4px;
+    color: #cc4100;
+}
+#contact .text {
+    display: block;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+#contact .say-hi-button {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    
+}
+#contact .say-hi-button a {
+    color: #cc4100;
+    font-family: 'Fira Code', monospace;
+    border: 1px solid #cc4100;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1rem 4rem;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+
+}
+#contact .say-hi-button a:hover {
+    color: white;
+    font-family: 'Fira Code', monospace;
+    background-color: #cc4100;
+    opacity: 70%;
+    border: 1px solid #cc4100;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1rem 4rem;
+}

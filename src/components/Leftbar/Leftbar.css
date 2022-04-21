@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px){
+    .side-left {
+        display: none;
+    }
+}
+.side-left {
+    margin: 0 0 0 10px;
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+}
+.side-left ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    list-style-type: none;
+    align-items: center;
+}
+.side-left li {
+    margin-left: -40px;
+    /* How can we align this center in a better fashion
+    so that it can be reflexive 
+    See: https://stackoverflow.com/questions/16818792/center-a-pseudo-element
+    */
+}
+.side-left li:last-of-type {
+    margin-bottom: 20px;
+} 
+.side-left ul::after {
+    content: "";
+    display: flex;
+    width: 1px;
+    height: 90px;
+    background-color: #cc4100;
+    margin-left: -40px;
+    z-index: 2;
+    /* How can we align this center in a better fashion
+    so that it can be reflexive 
+    See: https://stackoverflow.com/questions/16818792/center-a-pseudo-element
+    */
+} 
+.side-left-icon {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    color: #cc4100;
+    transition-property: padding;
+    transition-duration: 0.5s;
+}
+.side-left-icon-hover {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #cc4100;
+    transition-property: padding;
+    transition-duration: 0.5s;
+}

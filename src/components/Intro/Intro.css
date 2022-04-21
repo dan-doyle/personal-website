@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+    #intro {
+        padding: 0px 10px;
+        margin: 0px;
+    }
+}
+#intro {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+}
+#intro .first-text {
+    color: #cc4100;   
+}
