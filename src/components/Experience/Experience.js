@@ -17,7 +17,7 @@ export default function Experience() {
             name: 'Deutsche Bank',
             position: 'Investment Banking Analyst',
             dates: 'June 2019 - August 2019 and October 2020 - June 2021',
-            info: ['Joined the Healthcare Merges & Acquisitions advisory team following internship in 2019', 'Sell-side mandate for large European Healthcare services conglomerate to divest non-core asset','Engaged in numerous acquisition financings and refinancings for European sponsor-backed corporates']
+            info: ['Joined the Healthcare Merges & Acquisitions advisory team following an internship in 2019', 'Sell-side mandate for large European Healthcare services conglomerate to divest non-core asset','Engaged in numerous acquisition financings and refinancings for European sponsor-backed corporates']
         },
         {
             name: 'KKR',
@@ -29,7 +29,7 @@ export default function Experience() {
             name: 'Blackrock College',
             position: 'Math and Applied Math Teacher',
             dates: 'August 2017 - September 2017',
-            info: ['Planned and delivered Maths classes to penultimate year students in preparation for their Leaving Certificate examinations', 'Introduced transition year students to the Applied Mathematics Leaving Certificate curriculum', 'Demonstrating leadership in engaging students and promoting logical thinking']
+            info: ['Planned and delivered Maths classes to penultimate year students in preparation for their Leaving Certificate examinations', 'Introduced students to the Applied Mathematics Leaving Certificate curriculum', 'Demonstrating leadership in engaging students and promoting logical thinking']
         }
     ]; 
 

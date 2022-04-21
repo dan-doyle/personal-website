@@ -2,10 +2,19 @@
     #experience {
         padding: 25px 100px;
     }
+    .experience-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
 }
 @media only screen and (max-width: 768px) {
     #experience {
         padding: 25px 10px;
+    }
+    .experience-grid {
+        display: block;
+        margin: 10px;
     }
 }
 #experience h2 {
@@ -16,11 +25,6 @@
     content: "02.";
     margin-right: 4px;
     color: #cc4100;
-}
-.experience-grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
 }
 .experience-grid .job-list li:hover {
     background-color: #cc410020;
