@@ -46,6 +46,7 @@
     .aboutme-grid .pic-side-of-grid .wrapper img {
         display: block;
         width: 100%;
+        max-width: 252px;
         height: auto; 
         border-radius: 10px;
         border: 1px solid gray;

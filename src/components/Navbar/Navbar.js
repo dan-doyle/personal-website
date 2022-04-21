@@ -27,7 +27,7 @@ export default function Navbar() {
                     </ol>
                 </div>
                 <div className="cv">
-                    <a href="/CV" target='_blank'>CV</a> 
+                    <a href="personal-website/CV" target='_blank'>CV</a> 
                 </div>
             </nav>
         </nav>
