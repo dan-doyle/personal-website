@@ -19,10 +19,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/CV'>
+        <Route path='/personal-website/CV'>
           <CV />
         </Route>
-        <Route path="/">
+        <Route path="/personal-website/">
         <div className="App">
           <Navbar/>
           <Leftbar/>
