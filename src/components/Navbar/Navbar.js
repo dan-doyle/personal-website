@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -27,7 +28,7 @@ export default function Navbar() {
                     </ol>
                 </div>
                 <div className="cv">
-                    <a href="personal-website/CV" target='_blank'>CV</a> 
+                    <Link to="/CV">CV</Link> 
                 </div>
             </nav>
         </nav>
