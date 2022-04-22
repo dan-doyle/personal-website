@@ -4,6 +4,6 @@ import './CV.css';
 export default function CV() {
 
     return (
-        <object data="/media/CV/CV.pdf" type="application/pdf" className='cv-object' width="700px" height="1000px"></object>
+        <iframe src="/media/CV/CV.pdf" className='cv-object' width="800px" height="1000px"></iframe>
     )
 }
