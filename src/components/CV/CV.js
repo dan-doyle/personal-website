@@ -9,4 +9,4 @@ export default function CV() {
             <img src="media/CV/CV_2.jpg" alt='resume picture 2'/>
         </div>
     )
-}
+};
